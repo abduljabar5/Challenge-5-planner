@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .textarea {
+  textarea {
     background: #d3d3d3;
     border: none;
     resize: none;

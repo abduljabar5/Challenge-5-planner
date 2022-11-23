@@ -19,11 +19,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/style.css" />
+    <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"
+  ></script>
     
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    <h1 class="lol"></h1>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -32,44 +38,11 @@
     <div class="container">
       <!-- Timeblocks go here -->
       <div class="time-block">
-        <div><label class="hour">9am</label>
+        <div><label class="hour"> <span class="numbertime">9</span>am</label>
             <textarea placeholder="ENTER" class="textarea" id="textarea"></textarea><button id="btn" class="saveBtn">save</button></div>
-
-        <p><label class="hour">9am</label><input placeholder="ENTER" class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">10am</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">11am</label><input type="text" class="textarea" id="textarea"><input type="button"  class="saveBtn" value="save"></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">12pm</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">1pm</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">2pm</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">3pm</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">4pm</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
-     <div class="time-block">
-        <p><label class="hour">5pm</label><input class="textarea" id="textarea"><button class="saveBtn">save</button></p>
-      </div>
-     <br>
+            <div><label class="hour"> <span class="numbertime1">10</span>am</label>
+                <textarea placeholder="ENTER" class="textarea" id="textarea1"></textarea><button id="btn" class="saveBtn">save</button></div>
+       
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
