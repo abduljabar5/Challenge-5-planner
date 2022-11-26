@@ -29,6 +29,7 @@ console.log(num);
 //block one
 var timeNum = Number(time)
 // the two variables above changes the string into a number.
+//all if statements below are changing color of textbox depending on time.
 console.log(timeNum);
  if (num === timeNum){
     
@@ -98,7 +99,7 @@ var timeNum8 = Number(time8)
 
 
 console.log(blueButtom);
-//textArea.textContent="hi"
+//pastes information from local storage into textarea
 textArea.textContent = localStorage.getItem("checknow")
 textArea1.textContent = localStorage.getItem("checknow1")
 textArea2.textContent = localStorage.getItem("checknow2")
@@ -108,7 +109,7 @@ textArea5.textContent = localStorage.getItem("checknow5")
 textArea6.textContent = localStorage.getItem("checknow6")
 textArea7.textContent = localStorage.getItem("checknow7")
 textArea8.textContent = localStorage.getItem("checknow8")
- 
+ // put date and time at the top of the page
     var timerInterval = setInterval(function() {
        var correctDate = dayjs().format('dddd, MMMM D YYYY, h:mm:ss a');
         $(today).text(correctDate);
@@ -124,30 +125,30 @@ container.addEventListener("click",function(){
     
     var input = document.getElementById('textarea').value;
     localStorage.setItem("checknow",input)
-    //
+    //saves any input in text box
     var input1 = document.getElementById('textarea1').value;
     localStorage.setItem("checknow1",input1)
-    //
+    // text box 2
     var input2 = document.getElementById('textarea2').value;
     localStorage.setItem("checknow2",input2)
-//
-var input3 = document.getElementById('textarea3').value;
-localStorage.setItem("checknow3",input3)
-//
-var input4 = document.getElementById('textarea4').value;
-localStorage.setItem("checknow4",input4)
-//
-var input5 = document.getElementById('textarea5').value;
-localStorage.setItem("checknow5",input5)
-//
-var input6 = document.getElementById('textarea6').value;
-localStorage.setItem("checknow6",input6)
-//
-var input7 = document.getElementById('textarea7').value;
-localStorage.setItem("checknow7",input7)
-//
-var input8 = document.getElementById('textarea8').value;
-localStorage.setItem("checknow8",input8)
+    // text box 3
+    var input3 = document.getElementById('textarea3').value;
+    localStorage.setItem("checknow3",input3)
+    // text box 4
+    var input4 = document.getElementById('textarea4').value;
+    localStorage.setItem("checknow4",input4)
+    // text box 5
+    var input5 = document.getElementById('textarea5').value;
+    localStorage.setItem("checknow5",input5)
+    // text box 6
+    var input6 = document.getElementById('textarea6').value;
+    localStorage.setItem("checknow6",input6)
+    // text box 7
+    var input7 = document.getElementById('textarea7').value;
+    localStorage.setItem("checknow7",input7)
+    // text box 8
+    var input8 = document.getElementById('textarea8').value;
+    localStorage.setItem("checknow8",input8)
 
 
 
