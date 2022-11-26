@@ -11,11 +11,12 @@ body {
     background: #d3d3d3;
     border: none;
     resize: none;
-    color: #000000;
+    color: white;
     border-left: 1px solid black;
-    padding: 10px;
-    width: 80%;
+    padding: 25px;
+    min-width: 80%;
   }
+  
   
   .jumbotron {
     text-align: center;
@@ -45,7 +46,9 @@ body {
     color: #000000;
     border-top: 1px dashed #000000;
     float: left;
-    
+    margin-right: 40px;
+    width: 20px;
+    font-size: 25px;
   }
   
   .past {
@@ -69,7 +72,9 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
-    padding: 10px;
+    padding: 31px;
+    display: inline;
+    vertical-align: top;
   }
   
   .saveBtn i:hover {
